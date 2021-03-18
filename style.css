@@ -62,8 +62,8 @@
 .category {
     color: hsl(0, 10%, 25%);
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
-    flex-grow: 1;
     font-size: 25px;
     font-weight: 900;
     justify-content: center;
