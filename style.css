@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+.title-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.2em solid black;
+}
+
+.title {
+    font-family: "Snell Roundhand";
+    font-size: 60px;
+    font-style: italic;
+}
+
+.flex-container {
+    border: 0.01em solid black;
+    border-bottom: 0.2em solid black;
+    display: flex;
+}
+
+.article {
+    padding: 1em;
+}
+
+.article-title {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.article-1 {
+    width: 25%;
+}
+
+.article-2 {
+    border-left: 0.01em solid black;
+    border-right: 0.01em solid black;
+    width: 50%;
+}
+
+.article-3 {
+    width: 25%;
+}
+
+.responsive-img {
+    width: 100%;
+}
+
+.article-4 {
+    width: 25%
+}
+
+.categories {
+    border-left: 0.01em solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+
+.category {
+    color: hsl(0, 10%, 25%);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 25px;
+    font-weight: 900;
+    justify-content: center;
+    margin: 0;
+    padding-left: 1em;
+}
+
+.category-1 {
+    background-color: hsla(46, 95%, 84%, 1);
+}
+
+.category-2 {
+    background-color: hsla(181, 67%, 76%, 1);
+}
+
+.category-3 {
+    background-color: hsla(159, 72%, 72%, 1);
+}
+
+.category-4 {
+    background-color: hsla(212, 91%, 74%, 1);
+}
+
+.category-5 {
+    background-color: hsla(241, 87%, 79%, 1);
+}
